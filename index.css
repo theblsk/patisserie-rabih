@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(24, 24, 24)!important;
+}
+header {
+    background-color: rgb(24, 24, 24)!important;
+}
+.breadcrumbs{
+    background-color: rgb(24, 24, 24)!important;
+}
+.info{
+    background-color: rgb(37, 37, 37)!important;
+}
+.contact{
+    background-color: rgb(24, 24, 24)!important;
+}
+
+.inner-page{
+    background-color: rgb(24, 24, 24)!important;
+}
+i{
+    background-color: rgb(44, 44, 44)!important;
+}
+footer{
+    background-color: rgb(24, 24, 24)!important;
+}
+h4{
+    color: white!important;
+}
+h1{
+    color: white!important;
+}
+h2{
+    color: white!important;
+}
+li{
+    color: white!important;
+}
+p{
+    color: white!important;
+}
+.info-wrap{
+    border-radius: 10px!important;
+    background-color: rgb(37, 37, 37)!important;
+}
+.mobile-nav{
+    background-color: rgb(37, 37, 37)!important;
+}
+.nav{
+    background-color: rgb(37, 37, 37)!important;
+}
+ul{
+    background-color: rgb(37, 37, 37)!important;
+}
+a{
+    color: white!important;
+}
+.image{
+    border-color: rgb(24, 24, 24)!important;
+    box-shadow: 0 0 8px 8px black inset!important;
+}
+.gallery{
+    background-color: rgb(24, 24, 24)!important;
+}
+.gallery-item{
+    
+    border-right: rgb(24, 24, 24)!important;
+    border-bottom: rgb(24, 24, 24)!important;
+}
