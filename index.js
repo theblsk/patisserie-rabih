@@ -516,7 +516,7 @@ function ramadan(){
     fetch('https://patisserie-rabih.herokuapp.com/ramadan')
   .then(response => response.json())
   .then(json => {
-        var extract = document.getElementById('ramadan')
+        var extract = document.getElementById('special')
         for (let index = 0; index < json.length; index++) {
             var br = document.createElement('br')
             var mainDiv = document.createElement('div')

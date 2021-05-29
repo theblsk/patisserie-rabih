@@ -87,6 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
+  top: 50px;
   height: 70px;
   z-index: 997;
   transition: all 0.5s;
@@ -188,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0;
   visibility: hidden;
   padding: 10px 0;
-  background: rgb(0, 0, 0);
+  background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: ease all 0.3s;
 }
@@ -307,7 +308,7 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
 }
 .drop-down:hover{
-  color: rgb(37, 37, 37);
+  color: white;
   text-decoration: none;
 }
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a, .dropdown-item:hover {
@@ -1188,10 +1189,8 @@ section {
 /*--------------------------------------------------------------
 # Gallery
 --------------------------------------------------------------*/
-
 .gallery {
   padding-bottom: 0;
-
 }
 
 .gallery .gallery-item {
@@ -1212,9 +1211,9 @@ section {
 # Chefs
 --------------------------------------------------------------*/
 .chefs {
-  background: url("../img/ramadanImg1.jpg") center center no-repeat;
+  background: url("../img/chefs-bg.JPEG") center center no-repeat;
   background-size: cover;
-  padding:  0;
+  padding: 60px 0;
   position: relative;
 }
 
@@ -1225,7 +1224,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background:rgb(24, 24, 24);
+  background: rgba(255, 255, 255, 0.8);
   z-index: 9;
 }
 
@@ -1249,13 +1248,12 @@ section {
   bottom: -80px;
   left: 20px;
   right: 20px;
-  background-color: rgb(37, 37, 37)!important;
+  background: #fff;
   padding: 20px 0;
   color: #433f39;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: max-height 0.5s ease-in-out;
-  border-radius: 10px;
 }
 
 .chefs .member h4 {
