@@ -1,5 +1,5 @@
 function icecream(){
-    fetch('https://patisserie-rabih.herokuapp.com/icecream')
+    fetch('https://patisserie-rabih-server.onrender.com/icecream')
   .then(response => response.json())
   .then(json => {
         var extract = document.getElementById('icecream')
@@ -59,7 +59,7 @@ function icecream(){
 }
 icecream()
 function cheesecakes(){
-    fetch('https://patisserie-rabih.herokuapp.com/cheesecakes')
+    fetch('https://patisserie-rabih-server.onrender.com/cheesecakes')
   .then(response => response.json())
   .then(json => {
         var extract = document.getElementById('cheesecake')
@@ -120,7 +120,7 @@ function cheesecakes(){
 }
 cheesecakes()
 function crepe(){
-    fetch('https://patisserie-rabih.herokuapp.com/crepe')
+    fetch('https://patisserie-rabih-server.onrender.com/crepe')
   .then(response => response.json())
   .then(json => {
         var extract = document.getElementById('crepe')
@@ -192,7 +192,7 @@ function crepe(){
 }
 crepe()
 function milkshake(){
-    fetch('https://patisserie-rabih.herokuapp.com/milkshake')
+    fetch('https://patisserie-rabih-server.onrender.com/milkshake')
   .then(response => response.json())
   .then(json => {
         var extract = document.getElementById('milkshake')
@@ -260,7 +260,7 @@ function milkshake(){
 }
 milkshake()
 function cakes(){
-    fetch('https://patisserie-rabih.herokuapp.com/cakes')
+    fetch('https://patisserie-rabih-server.onrender.com/cakes')
   .then(response => response.json())
   .then(json => {
         var extract = document.getElementById('cake')
@@ -318,7 +318,7 @@ function cakes(){
 }
 cakes()
 function mousse(){
-    fetch('https://patisserie-rabih.herokuapp.com/mousse')
+    fetch('https://patisserie-rabih-server.onrender.com/mousse')
   .then(response => response.json())
   .then(json => {
         var extract = document.getElementById('mousse')
@@ -379,7 +379,7 @@ function mousse(){
 }
 mousse()
 function brownies(){
-    fetch('https://patisserie-rabih.herokuapp.com/brownies')
+    fetch('https://patisserie-rabih-server.onrender.com/brownies')
   .then(response => response.json())
   .then(json => {
         var extract = document.getElementById('brownie')
@@ -439,7 +439,7 @@ function brownies(){
 }
 brownies()
 function specials(){
-    fetch('https://patisserie-rabih.herokuapp.com/special')
+    fetch('https://patisserie-rabih-server.onrender.com/special')
   .then(response => response.json())
   .then(json => {
         var extract = document.getElementById('special')
@@ -513,7 +513,7 @@ function specials(){
 }
 specials()
 function ramadan(){
-    fetch('https://patisserie-rabih.herokuapp.com/ramadan')
+    fetch('https://patisserie-rabih-server.onrender.com/ramadan')
   .then(response => response.json())
   .then(json => {
         var extract = document.getElementById('ramadan')
